@@ -1,0 +1,22 @@
+.home {
+
+}
+.tst_banners {
+    height: 650rpx;
+}
+.tst_banners image {
+    width: 100vw;
+    height: 650rpx;
+}
+.page__bd {
+    position: relative;
+    /* height: 20vh;
+    background: green; */
+    top: -60rpx;
+    padding: 0 33rpx;
+}
+.tst_userinfo {
+    background-color: #fff;
+    height: 162rpx;
+    border-radius:26rpx;
+}

@@ -1,0 +1,24 @@
+<view class="page home">
+  <view class="page__hd">
+    <swiper 
+      class="tst_banners" 
+      indicator-dots="true"
+      autoplay="true"
+      interval="3000"
+    >
+      <block wx:for="{{banners}}" wx:key="id">
+        <swiper-item>
+          <navigator>
+            <image src="{{item.pic}}"/>
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="page__bd">
+    <view class="tst_userinfo">
+    </view>
+    <view class="tst_way">
+    </view>
+  </view>
+</view>
