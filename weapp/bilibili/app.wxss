@@ -1,0 +1,9 @@
+
+@import "styles/fontawesome.wxss";
+page,view,image,swiper,swiper-item,navigator,video,searchbox{
+    box-sizing: border-box;
+    
+  }
+  page {
+    background-color: #F5F5F5;
+  }

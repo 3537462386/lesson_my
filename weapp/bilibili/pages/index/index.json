@@ -1,0 +1,11 @@
+{
+    "navigationBarTitleText":"bilibili",
+   
+      
+      "usingComponents": {
+     
+        "searchbox": "../../components/searchbox/searchbox"
+       
+      }
+    }
+  

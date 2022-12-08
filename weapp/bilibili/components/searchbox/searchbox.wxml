@@ -1,0 +1,24 @@
+<view class="my_title">
+  <!--logo-->
+    <navigator class="logo"> 
+      <image class="logo_img" style="width:140rpx;height:90rpx;" src="./logo.png"> </image>
+    </navigator>
+  <!-- 搜索框 -->
+  <van-search class="searchs">
+    
+  </van-search>
+  <!--搜索-->
+  <view class="search"> 
+      <image class="search_img" style="width:60rpx;height:60rpx;" src="./search.png"> </image>
+    </view>
+  <!--用户-->
+  <view class="user"> 
+      <image class="user_img" style="width:70rpx;height:70rpx;" src="./user.png"> </image>
+    </view>
+  
+  <!--下载-->
+  <navigator class="down_app" url="https://app.bilibili.com/?spm_id_from=333.1007.0.0"> 
+    下载APP
+    </navigator>
+</view>
+
