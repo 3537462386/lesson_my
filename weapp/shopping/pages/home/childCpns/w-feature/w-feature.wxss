@@ -1,0 +1,8 @@
+.feature image {
+  width: 100%;
+  
+}
+.feature {
+  margin: 10rpx;
+  
+}
