@@ -1,0 +1,9 @@
+- git init 
+- git add readme.md 多次添加暂存区
+- git commit -m 'reason' 一次性提交
+- git log --online 提交记录
+- git reset --hard HEAD^ 返回之前的操作
+- git status 当前仓库状态
+- git pull origin master
+- git push origin master 提交到远程仓库
+- git diff 差别
