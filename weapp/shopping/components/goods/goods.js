@@ -1,10 +1,10 @@
-// pages/home/childCpns/w-recommend/w-recommend.js
+// components/goods/goods.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    recommends: {
+    goodslist: {
       type: Array,
       value: []
     }

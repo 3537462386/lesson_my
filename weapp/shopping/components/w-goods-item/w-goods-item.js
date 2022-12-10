@@ -1,12 +1,12 @@
-// pages/home/childCpns/w-recommend/w-recommend.js
+// components/w-goods-item/w-goods-item.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    recommends: {
-      type: Array,
-      value: []
+    goodsitem: {
+      type: Object,
+      value: {}
     }
   },
 
@@ -21,6 +21,8 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    itemClick() {
+      
+    }
   }
 })

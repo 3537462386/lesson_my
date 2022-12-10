@@ -1,4 +1,4 @@
-/* pages/home/childCpns/w-recommend/w-recommend.wxss */.recommend {
+.recommend {
   display: flex;
   margin-top: 40rpx;
   padding-bottom: 40rpx;
