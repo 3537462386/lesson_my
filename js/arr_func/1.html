@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<ul id="root">
+
+</ul>
+<script>
+// 前端
+// 拉取数据 ?
+// https://www.fastmock.site/mock/fc09142a9029fcb292822d4ee872f52b/beers/banners    接口地址
+// 后端
+// 异步
+const list = document.getElementById('root');
+const p = fetch('https://www.fastmock.site/mock/fc09142a9029fcb292822d4ee872f52b/beers/banners')
+// console.log(p)
+//pending   promise 起始状态
+//fullfield 成功解决
+//rejected 失败
+//控制执行流程
+p   .then(res =>{
+    return res.json();
+    //二进制流到达应用，json 化也是需要时间的，promise 实例
+    // console.log(res,json())
+    // return res.json()
+} )
+    //promise实例
+    .then(data=>{
+    console.log(data);
+    // const titles = data.map(item=>item.title)
+    // console.log("titles");
+    data.map(item=>{`
+        <li>
+             <div>
+                 ${item.id}
+                 ${item.title}
+                 <img src="${item.img}">
+            </div>
+        </li>
+    `
+    })
+    // data.forEach(item=>{
+    //     // map  es6 array 方法
+    //     // reduce
+    //     list.innerHTML +=`
+    //     <li>
+    //         <div>
+    //             ${item.id}
+    //             ${item.title}
+    //             <img src="${item.img}">
+    //         </div>
+    //     </li>
+    //     `
+    // })
+})
+.catch(e=>{
+    console.log(e)
+})
+</script>
+</body>
+</html>
